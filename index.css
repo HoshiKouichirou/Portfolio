@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.about-me{
+  height:100%;
+  border: solid;
+  border-width: 0 0 0 1px;
+  margin-left: 3vw;
+  display: inline-block;
+  width: 65vw;
+}
+p{
+  padding: 10px;
+  font-size: 50px;
+  font-family: "profile-font";
+  margin: 0;
+}
+.self-introduction{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #3498db;
+  text-decoration:underline;
+}
+.product{
+  font-size: 20px;
+}
+.Special-skill{
+  font-size: 30px;
+}
+.skill{
+  font-size: 20px;
+}
+.Main-content{
+  padding: 10px;
+  font-size: 20px;
+  font-family: "profile-font-ja";
+}
+.br::before {
+  content: "\A" ;
+  white-space: pre ;
+}
+.col{
+  vertical-align: top;
+}
+.school{
+  border: solid;
+  border-width: 0 0 1px 0;
+  text-align: center;
+  font-family: "profile-font-ja";
+  font-size: 20px;
+}
+.my-img{
+  position: relative;
+  border-radius: 125px 125px 125px 125px;
+  width: 100%;
+  height: 250px;
+  box-shadow: 0px 0px 6px #cecece;
+}
+.header{
+  text-align: center;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  width: 100%;
+  height: 7vh;
+  font-size: 35px;
+  font-family: profile-font;
+  box-shadow: 0px 0px 4px;;
+}
+
+.name{
+  border: solid;
+  border-width: 0 0 1px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-family: "profile-font";
+
+}
+.My-profile{
+  display: inline-block;
+  width: 250px;
+}
+.social{
+  width: 250px;
+
+}
+
+.Social{
+  padding: 0;
+
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+.sns{
+  list-style: none;
+}
+.sns img{
+  display: inline;
+  width: 38px;
+  transform: scale(1);
+  transition: 0.2s cubic-bezier(0.42, 0, 0.76, 1.45);
+  object-fit: contain;
+}
+.sns img:hover{
+  transform: scale(1.1);
+}
+.birthday{
+  width: 250px;
+
+  text-align: center;
+  font-family: "profile-font";
+  border: solid;
+  border-width: 0 0 1px 0;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "profile-font";
+  src: url(./AlfonsSans-Regular.ttf);
+}
+@font-face {
+  font-family: "profile-font-ja";
+  src: url(./NotoSansCJKjp-Light.otf);
+}
