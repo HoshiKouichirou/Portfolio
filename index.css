@@ -119,7 +119,10 @@ a:hover{
 .sns{
   list-style: none;
 }
-
+img{
+  width: 38px;
+  height: 38px;
+}
 .sns img{
   display: inline;
   width: 38px;
